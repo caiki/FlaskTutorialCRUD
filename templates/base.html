@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<head>
+<title>
+A Simple HTML Document
+</title>
+<link rel = "stylesheet" href = "{{url_for('static',filename = 'css/main.css')}}">
+</link>
+{% block head %}{% endblock %}
+</head>
+<body>
+  <h1>Hello World!-base</h1>
+{% block body %}{% endblock %}
+</body>
+</html>
