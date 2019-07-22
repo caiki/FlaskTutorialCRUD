@@ -7,6 +7,7 @@ https://flaskpracticecarlos.herokuapp.com/
 
 # Install CLI HEROKU
 https://devcenter.heroku.com/articles/heroku-cli
+
 FOR LINUX IS:
 	
 	$ sudo snap install --classic heroku
