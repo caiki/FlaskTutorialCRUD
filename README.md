@@ -5,6 +5,11 @@ https://www.youtube.com/watch?v=Z1RJmh_OqeA
 # Link deployed (Heroku)
 https://flaskpracticecarlos.herokuapp.com/
 
+# Preparing enviroment
+	$ pip3 install virtualenv
+	$ virtualenv myenv
+	$ source myvenv/bin/activate #activate enviroment
+
 # Install CLI HEROKU
 https://devcenter.heroku.com/articles/heroku-cli
 
