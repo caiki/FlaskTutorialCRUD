@@ -8,15 +8,16 @@ https://flaskpracticecarlos.herokuapp.com/
 # Install CLI HEROKU
 https://devcenter.heroku.com/articles/heroku-cli
 FOR LINUX IS:
-$ sudo snap install --classic heroku
+	
+	$ sudo snap install --classic heroku
 
 #COMANDOS COMO USAR FLASK
 #Instalar flask
 
-pip3 install flask flask-sqlalchemy
+	$ pip3 install flask flask-sqlalchemy
   
 # Generar lista de requerimientos
-	pip3 freeze > requirements.txt
+	$ pip3 freeze > requirements.txt
 
 # Crear proyecto en Heroku 
 	$ heroku create flaskpracticecarlos
