@@ -9,22 +9,34 @@ https://flaskpracticecarlos.herokuapp.com/
 	$ pip3 install virtualenv
 	$ virtualenv myenv
 	$ source myvenv/bin/activate #activate enviroment
+# Comando para instalar flask
+	$ pip3 install flask flask-sqlalchemy
+
+# Create main file app.py and run it with
+	$ python3 app.py
+# For create a database
+	$ python3
+	$ from app import db
+	$ db.create_all()
+	$ exit()
+	
+# Generar lista de requerimientos
+	$ pip3 freeze > requirements.txt
 
 # Install CLI HEROKU
 https://devcenter.heroku.com/articles/heroku-cli
 
-FOR LINUX IS:
-	
+FOR LINUX IS:	
 	$ sudo snap install --classic heroku
 	
-# Comando para instalar flask
-
-	$ pip3 install flask flask-sqlalchemy
-  
-# Generar lista de requerimientos
-	$ pip3 freeze > requirements.txt
-
-# Crear proyecto en Heroku 
+# Crear proyecto en Heroku
+	$ heroku login # usa tus credenciales
+	$ pip3 install gunicorn
+	$ touch Procfile # para inicializar el servidor 
+	$ git init # inicializa repositorio
+	$ git add .
+	$ git commit -m "init app"
 	$ heroku create flaskpracticecarlos
 	$ git remote -v
 	$ git push heroku master
+	
